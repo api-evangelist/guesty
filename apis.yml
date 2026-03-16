@@ -1,31 +1,52 @@
 aid: guesty
 name: Guesty
 description: >-
-  Youll find step-by-step instructions and documentation to get you up and
-  running with theGuesty Open API as quickly as possible, Lets get started! 
+  Guesty is a property management platform for short-term rental businesses.
+  The Guesty Open API provides programmatic access to manage properties,
+  reservations, guests, and operations across multiple listing channels.
 type: Index
-position: Consumer
-access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API
-created: '2025-02-12'
-modified: '2025-02-12'
+  - Property Management
+  - Short-Term Rentals
+  - Hospitality
+  - Booking
 url: >-
   https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/apis.yml
+created: '2025-02-12'
+modified: '2026-03-16'
 specificationVersion: '0.19'
 apis:
-  - aid: guesty:guesty
-    name: Guesty
+  - aid: guesty:guesty-open-api
+    name: Guesty Open API
     description: >-
-      Youll find step-by-step instructions and documentation to get you up and
-      running with theGuesty Open API as quickly as possible, Lets get started! 
-    humanURL: ' https://open-api-docs.guesty.com/'
+      The Guesty Open API provides step-by-step instructions and documentation
+      to integrate with the Guesty property management platform, including
+      listings, reservations, guests, and multi-channel management.
+    humanURL: https://open-api-docs.guesty.com/
+    baseURL: https://open-api.guesty.com
     tags:
-      - API
+      - Property Management
+      - Short-Term Rentals
+      - Reservations
     properties:
       - type: Documentation
-        url: ' https://open-api-docs.guesty.com/'
+        url: https://open-api-docs.guesty.com/
+      - type: Getting Started
+        url: https://open-api-docs.guesty.com/docs/getting-started
+      - type: Authentication
+        url: https://open-api-docs.guesty.com/docs/authentication-and-authorization
+common:
+  - type: Portal
+    url: https://open-api-docs.guesty.com/
+  - type: Website
+    url: https://www.guesty.com/
+  - type: Sign Up
+    url: https://app.guesty.com/register
+  - type: Support
+    url: https://help.guesty.com/
+  - type: Blog
+    url: https://www.guesty.com/blog/
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
