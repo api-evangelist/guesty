@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Booking
+  - Hospitality
   - Property Management
   - Short-Term Rentals
-  - Hospitality
-  - Booking
 url: >-
   https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/apis.yml
 created: '2025-02-12'
@@ -27,8 +27,8 @@ apis:
     baseURL: https://open-api.guesty.com
     tags:
       - Property Management
-      - Short-Term Rentals
       - Reservations
+      - Short-Term Rentals
     properties:
       - type: Documentation
         url: https://open-api-docs.guesty.com/
