@@ -5,18 +5,18 @@ Guesty is a property management platform for short-term rental businesses. The G
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - Property Management, Short-Term Rentals, Hospitality, Booking
+- Booking, Hospitality, Property Management, Reservations, Short-Term Rentals, Vacation Rentals
 
 ## Timestamps
 
-- **Created:** 2025-02-12 
-- **Modified:** 2026-03-16 
+- **Created:** 2025-02-12
+- **Modified:** 2026-04-28
 
 ## APIs
 
@@ -25,16 +25,21 @@ The Guesty Open API provides step-by-step instructions and documentation to inte
 
 **Human URL:** [https://open-api-docs.guesty.com/](https://open-api-docs.guesty.com/)
 
+**Base URL:** `https://open-api.guesty.com`
 
-#### Tags:
+#### Tags
 
- - Property Management, Short-Term Rentals, Reservations
+- Property Management, Short-Term Rentals, Reservations
 
 #### Properties
 
 - [Documentation](https://open-api-docs.guesty.com/)
 - [Getting Started](https://open-api-docs.guesty.com/docs/getting-started)
 - [Authentication](https://open-api-docs.guesty.com/docs/authentication-and-authorization)
+- [API Reference](https://open-api-docs.guesty.com/reference)
+- [Changelog](https://open-api-docs.guesty.com/changelog)
+
+> Note: Guesty publishes API documentation through a Readme.io portal. A downloadable OpenAPI specification has not been linked from the public portal at this time, so no machine-readable spec is included in this repository yet.
 
 ## Common Properties
 
@@ -43,6 +48,7 @@ The Guesty Open API provides step-by-step instructions and documentation to inte
 - [Sign Up](https://app.guesty.com/register)
 - [Support](https://help.guesty.com/)
 - [Blog](https://www.guesty.com/blog/)
+- [API Reference](https://open-api-docs.guesty.com/reference)
 
 ## Maintainers
 
