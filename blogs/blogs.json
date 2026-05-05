@@ -1,0 +1,13 @@
+{
+  "repo": "guesty",
+  "feeds": [
+    {
+      "source": "https://www.guesty.com/blog/",
+      "feed_url": "https://www.guesty.com/feed/",
+      "saved": 10,
+      "title": "Guesty"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:29:46Z"
+}
