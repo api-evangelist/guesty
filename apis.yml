@@ -44,6 +44,8 @@ apis:
         url: https://open-api-docs.guesty.com/reference
       - type: Changelog
         url: https://open-api-docs.guesty.com/changelog
+      - type: OpenAPI
+        url: openapi/guesty-openapi.yml
 common:
   - type: Portal
     url: https://open-api-docs.guesty.com/
