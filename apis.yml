@@ -36,13 +36,13 @@ apis:
     properties:
       - type: Documentation
         url: https://open-api-docs.guesty.com/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://open-api-docs.guesty.com/docs/getting-started
       - type: Authentication
         url: https://open-api-docs.guesty.com/docs/authentication-and-authorization
-      - type: API Reference
+      - type: APIReference
         url: https://open-api-docs.guesty.com/reference
-      - type: Changelog
+      - type: ChangeLog
         url: https://open-api-docs.guesty.com/changelog
       - type: OpenAPI
         url: openapi/guesty-openapi.yml
@@ -51,13 +51,13 @@ common:
     url: https://open-api-docs.guesty.com/
   - type: Website
     url: https://www.guesty.com/
-  - type: Sign Up
+  - type: SignUp
     url: https://app.guesty.com/register
   - type: Support
     url: https://help.guesty.com/
   - type: Blog
     url: https://www.guesty.com/blog/
-  - type: API Reference
+  - type: APIReference
     url: https://open-api-docs.guesty.com/reference
 maintainers:
   - FN: Kin Lane
