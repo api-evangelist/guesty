@@ -1,0 +1,89 @@
+naftiko: 1.0.0-alpha2
+info:
+  label: Guesty Open API — Calendars
+  description: 'Guesty Open API — Calendars. 1 operations. Lead operation: Get listing calendar. Self-contained Naftiko capability
+    covering one Guesty business surface.'
+  tags:
+  - Guesty
+  - Calendars
+  created: '2026-05-19'
+  modified: '2026-05-19'
+binds:
+- namespace: env
+  keys:
+    GUESTY_API_KEY: GUESTY_API_KEY
+capability:
+  consumes:
+  - type: http
+    namespace: guesty-calendars
+    baseUri: https://open-api.guesty.com
+    description: Guesty Open API — Calendars business capability. Self-contained, no shared references.
+    resources:
+    - name: calendars-listings-listingId
+      path: /calendars/listings/{listingId}
+      operations:
+      - name: getcalendar
+        method: GET
+        description: Get listing calendar
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: listingId
+          in: path
+          type: string
+          required: true
+        - name: from
+          in: query
+          type: string
+        - name: to
+          in: query
+          type: string
+    authentication:
+      type: bearer
+      token: '{{env.GUESTY_API_KEY}}'
+  exposes:
+  - type: rest
+    namespace: guesty-calendars-rest
+    port: 8080
+    description: REST adapter for Guesty Open API — Calendars. One Spectral-compliant resource per consumed operation, prefixed
+      with /v1.
+    resources:
+    - path: /v1/calendars/listings/{listingid}
+      name: calendars-listings-listingid
+      description: REST surface for calendars-listings-listingId.
+      operations:
+      - method: GET
+        name: getcalendar
+        description: Get listing calendar
+        call: guesty-calendars.getcalendar
+        with:
+          listingId: rest.listingId
+          from: rest.from
+          to: rest.to
+        outputParameters:
+        - type: object
+          mapping: $.
+  - type: mcp
+    namespace: guesty-calendars-mcp
+    port: 9090
+    transport: http
+    description: MCP adapter for Guesty Open API — Calendars. One tool per consumed operation, routed inline through this
+      capability's consumes block.
+    tools:
+    - name: get-listing-calendar
+      description: Get listing calendar
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: true
+      call: guesty-calendars.getcalendar
+      with:
+        listingId: tools.listingId
+        from: tools.from
+        to: tools.to
+      outputParameters:
+      - type: object
+        mapping: $.
