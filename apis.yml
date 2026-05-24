@@ -66,6 +66,8 @@ common:
     url: https://www.guesty.com/blog/
   - type: APIReference
     url: https://open-api-docs.guesty.com/reference
+  - type: LLMsTxt
+    url: https://open-api-docs.guesty.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
