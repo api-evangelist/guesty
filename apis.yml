@@ -50,7 +50,7 @@ common:
     url: https://open-api-docs.guesty.com/
   - type: Website
     url: https://www.guesty.com/
-  - type: SignUp
+  - type: Signup
     url: https://app.guesty.com/register
   - type: Support
     url: https://help.guesty.com/
@@ -58,7 +58,7 @@ common:
     url: https://www.guesty.com/blog/
   - type: APIReference
     url: https://open-api-docs.guesty.com/reference
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://open-api-docs.guesty.com/llms.txt
 maintainers:
   - FN: Kin Lane
