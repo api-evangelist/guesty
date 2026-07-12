@@ -42,6 +42,10 @@ apis:
       - type: OpenAPI
         url: openapi/guesty-openapi.yml
 common:
+  - type: DomainSecurity
+    url: security/guesty-domain-security.yml
+  - type: Authentication
+    url: authentication/guesty-authentication.yml
   - type: GitHubOrganization
     url: https://github.com/guestyorg
   - type: LinkedIn
