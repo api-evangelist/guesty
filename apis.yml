@@ -42,6 +42,8 @@ apis:
       - type: OpenAPI
         url: openapi/guesty-openapi.yml
 common:
+  - type: AgenticAccess
+    url: agentic-access/guesty-agentic-access.yml
   - type: DomainSecurity
     url: security/guesty-domain-security.yml
   - type: Authentication
