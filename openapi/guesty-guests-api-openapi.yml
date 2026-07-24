@@ -1,0 +1,78 @@
+openapi: 3.1.0
+info:
+  title: Guesty Open Calendars Guests API
+  description: Minimal OpenAPI description for the Guesty Open API. Covers a representative subset of resources for property management including listings, reservations, guests, calendar availability, and conversations across multi-channel distribution. Generated from public documentation; verify before production use.
+  version: '1.0'
+  contact:
+    name: Guesty Open API Documentation
+    url: https://open-api-docs.guesty.com/
+  x-generated-from: https://open-api-docs.guesty.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://open-api.guesty.com
+  description: Guesty Open API production
+security:
+- bearerAuth: []
+tags:
+- name: Guests
+  description: Guest profiles
+paths:
+  /guests:
+    get:
+      operationId: listGuests
+      summary: List guests
+      tags:
+      - Guests
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GuestList'
+  /guests/{id}:
+    get:
+      operationId: getGuest
+      summary: Get guest by id
+      tags:
+      - Guests
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Guest'
+components:
+  schemas:
+    GuestList:
+      type: object
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Guest'
+        count:
+          type: integer
+    Guest:
+      type: object
+      properties:
+        _id:
+          type: string
+        fullName:
+          type: string
+        email:
+          type: string
+        phone:
+          type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

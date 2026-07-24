@@ -1,0 +1,55 @@
+openapi: 3.1.0
+info:
+  title: Guesty Open Calendars API
+  description: Minimal OpenAPI description for the Guesty Open API. Covers a representative subset of resources for property management including listings, reservations, guests, calendar availability, and conversations across multi-channel distribution. Generated from public documentation; verify before production use.
+  version: '1.0'
+  contact:
+    name: Guesty Open API Documentation
+    url: https://open-api-docs.guesty.com/
+  x-generated-from: https://open-api-docs.guesty.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://open-api.guesty.com
+  description: Guesty Open API production
+security:
+- bearerAuth: []
+tags:
+- name: Calendars
+  description: Listing availability and pricing
+paths:
+  /calendars/listings/{listingId}:
+    get:
+      operationId: getCalendar
+      summary: Get listing calendar
+      description: Retrieve availability and pricing for a listing.
+      tags:
+      - Calendars
+      parameters:
+      - name: listingId
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: from
+        in: query
+        schema:
+          type: string
+          format: date
+      - name: to
+        in: query
+        schema:
+          type: string
+          format: date
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

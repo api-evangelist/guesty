@@ -1,0 +1,38 @@
+openapi: 3.1.0
+info:
+  title: Guesty Open Calendars Conversations API
+  description: Minimal OpenAPI description for the Guesty Open API. Covers a representative subset of resources for property management including listings, reservations, guests, calendar availability, and conversations across multi-channel distribution. Generated from public documentation; verify before production use.
+  version: '1.0'
+  contact:
+    name: Guesty Open API Documentation
+    url: https://open-api-docs.guesty.com/
+  x-generated-from: https://open-api-docs.guesty.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://open-api.guesty.com
+  description: Guesty Open API production
+security:
+- bearerAuth: []
+tags:
+- name: Conversations
+  description: Guest communication threads
+paths:
+  /communication-conversations:
+    get:
+      operationId: listConversations
+      summary: List conversations
+      tags:
+      - Conversations
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

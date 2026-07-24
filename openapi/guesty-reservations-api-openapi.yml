@@ -1,0 +1,113 @@
+openapi: 3.1.0
+info:
+  title: Guesty Open Calendars Reservations API
+  description: Minimal OpenAPI description for the Guesty Open API. Covers a representative subset of resources for property management including listings, reservations, guests, calendar availability, and conversations across multi-channel distribution. Generated from public documentation; verify before production use.
+  version: '1.0'
+  contact:
+    name: Guesty Open API Documentation
+    url: https://open-api-docs.guesty.com/
+  x-generated-from: https://open-api-docs.guesty.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://open-api.guesty.com
+  description: Guesty Open API production
+security:
+- bearerAuth: []
+tags:
+- name: Reservations
+  description: Bookings and reservations
+paths:
+  /reservations:
+    get:
+      operationId: listReservations
+      summary: List reservations
+      tags:
+      - Reservations
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+          default: 25
+      - name: skip
+        in: query
+        schema:
+          type: integer
+          default: 0
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReservationList'
+    post:
+      operationId: createReservation
+      summary: Create reservation
+      tags:
+      - Reservations
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Reservation'
+      responses:
+        '201':
+          description: Reservation created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Reservation'
+  /reservations/{id}:
+    get:
+      operationId: getReservation
+      summary: Get reservation by id
+      tags:
+      - Reservations
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Reservation'
+components:
+  schemas:
+    Reservation:
+      type: object
+      properties:
+        _id:
+          type: string
+        listingId:
+          type: string
+        guestId:
+          type: string
+        checkInDateLocalized:
+          type: string
+          format: date
+        checkOutDateLocalized:
+          type: string
+          format: date
+        status:
+          type: string
+    ReservationList:
+      type: object
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Reservation'
+        count:
+          type: integer
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

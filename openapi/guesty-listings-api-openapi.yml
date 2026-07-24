@@ -1,0 +1,111 @@
+openapi: 3.1.0
+info:
+  title: Guesty Open Calendars Listings API
+  description: Minimal OpenAPI description for the Guesty Open API. Covers a representative subset of resources for property management including listings, reservations, guests, calendar availability, and conversations across multi-channel distribution. Generated from public documentation; verify before production use.
+  version: '1.0'
+  contact:
+    name: Guesty Open API Documentation
+    url: https://open-api-docs.guesty.com/
+  x-generated-from: https://open-api-docs.guesty.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://open-api.guesty.com
+  description: Guesty Open API production
+security:
+- bearerAuth: []
+tags:
+- name: Listings
+  description: Property listings
+paths:
+  /listings:
+    get:
+      operationId: listListings
+      summary: List listings
+      description: Retrieve a paginated list of listings.
+      tags:
+      - Listings
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+          default: 25
+      - name: skip
+        in: query
+        schema:
+          type: integer
+          default: 0
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ListingList'
+    post:
+      operationId: createListing
+      summary: Create listing
+      description: Create a new listing.
+      tags:
+      - Listings
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Listing'
+      responses:
+        '201':
+          description: Listing created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Listing'
+  /listings/{id}:
+    get:
+      operationId: getListing
+      summary: Get listing by id
+      tags:
+      - Listings
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Listing'
+components:
+  schemas:
+    ListingList:
+      type: object
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Listing'
+        count:
+          type: integer
+    Listing:
+      type: object
+      properties:
+        _id:
+          type: string
+        title:
+          type: string
+        nickname:
+          type: string
+        accountId:
+          type: string
+        active:
+          type: boolean
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
