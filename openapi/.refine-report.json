@@ -1,0 +1,22 @@
+{
+  "provider": "guesty",
+  "sources": [
+    "guesty-calendars-api-openapi.yml",
+    "guesty-conversations-api-openapi.yml",
+    "guesty-guests-api-openapi.yml",
+    "guesty-listings-api-openapi.yml",
+    "guesty-reservations-api-openapi.yml"
+  ],
+  "outputs": [
+    "guesty-calendars-api-openapi.yml",
+    "guesty-conversations-api-openapi.yml",
+    "guesty-guests-api-openapi.yml",
+    "guesty-listings-api-openapi.yml",
+    "guesty-reservations-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
