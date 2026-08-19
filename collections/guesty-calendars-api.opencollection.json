@@ -1,0 +1,52 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Guesty Open Calendars API",
+    "version": "1.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Calendars",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get listing calendar",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://open-api.guesty.com/calendars/listings/:listingId",
+            "params": [
+              {
+                "name": "listingId",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "from",
+                "value": "",
+                "type": "query"
+              },
+              {
+                "name": "to",
+                "value": "",
+                "type": "query"
+              }
+            ]
+          },
+          "docs": "Retrieve availability and pricing for a listing."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

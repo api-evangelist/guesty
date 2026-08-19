@@ -1,0 +1,325 @@
+{
+  "item": [
+    {
+      "id": "ea97dcc2-12a2-4546-9544-9c09a4bd0bdb",
+      "name": "Reservations",
+      "description": {
+        "content": "Bookings and reservations",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "590580a7-038d-4094-af8b-9af61d2a147f",
+          "name": "List reservations",
+          "request": {
+            "name": "List reservations",
+            "description": {},
+            "url": {
+              "path": [
+                "reservations"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "limit",
+                  "value": "25"
+                },
+                {
+                  "disabled": false,
+                  "key": "skip",
+                  "value": "0"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "9bb8e6bd-239d-4413-93e2-41d0b6fd8289",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "reservations"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "limit",
+                      "value": "25"
+                    },
+                    {
+                      "key": "skip",
+                      "value": "0"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"results\": [\n    {\n      \"_id\": \"string\",\n      \"listingId\": \"string\",\n      \"guestId\": \"string\",\n      \"checkInDateLocalized\": \"1968-11-05\",\n      \"checkOutDateLocalized\": \"1960-04-23\",\n      \"status\": \"string\"\n    },\n    {\n      \"_id\": \"string\",\n      \"listingId\": \"string\",\n      \"guestId\": \"string\",\n      \"checkInDateLocalized\": \"1965-07-07\",\n      \"checkOutDateLocalized\": \"1949-05-18\",\n      \"status\": \"string\"\n    }\n  ],\n  \"count\": 401\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "81aacf66-f115-4bc4-9248-27da939a7e75",
+          "name": "Create reservation",
+          "request": {
+            "name": "Create reservation",
+            "description": {},
+            "url": {
+              "path": [
+                "reservations"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"_id\": \"<string>\",\n  \"listingId\": \"<string>\",\n  \"guestId\": \"<string>\",\n  \"checkInDateLocalized\": \"<date>\",\n  \"checkOutDateLocalized\": \"<date>\",\n  \"status\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "463529ad-cfd3-481a-9176-4c47ba051ce9",
+              "name": "Reservation created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "reservations"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"_id\": \"<string>\",\n  \"listingId\": \"<string>\",\n  \"guestId\": \"<string>\",\n  \"checkInDateLocalized\": \"<date>\",\n  \"checkOutDateLocalized\": \"<date>\",\n  \"status\": \"<string>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"_id\": \"string\",\n  \"listingId\": \"string\",\n  \"guestId\": \"string\",\n  \"checkInDateLocalized\": \"1987-02-20\",\n  \"checkOutDateLocalized\": \"1964-06-10\",\n  \"status\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "629666cc-f0bb-4b83-b679-9fe732ad484f",
+          "name": "Get reservation by id",
+          "request": {
+            "name": "Get reservation by id",
+            "description": {},
+            "url": {
+              "path": [
+                "reservations",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "id",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "403936b7-77a0-4e24-963b-93144882f137",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "reservations",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"_id\": \"string\",\n  \"listingId\": \"string\",\n  \"guestId\": \"string\",\n  \"checkInDateLocalized\": \"1987-02-20\",\n  \"checkOutDateLocalized\": \"1964-06-10\",\n  \"status\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://open-api.guesty.com",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "5597fc95-6e64-4a88-9a6a-baaf3f7e0269",
+    "name": "Guesty Open Calendars Reservations API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI description for the Guesty Open API. Covers a representative subset of resources for property management including listings, reservations, guests, calendar availability, and conversations across multi-channel distribution. Generated from public documentation; verify before production use.\n\nContact Support:\n Name: Guesty Open API Documentation",
+      "type": "text/plain"
+    }
+  }
+}

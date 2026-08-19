@@ -1,0 +1,80 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Guesty Open Calendars Listings API",
+    "version": "1.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Listings",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List listings",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://open-api.guesty.com/listings",
+            "params": [
+              {
+                "name": "limit",
+                "value": "",
+                "type": "query"
+              },
+              {
+                "name": "skip",
+                "value": "",
+                "type": "query"
+              }
+            ]
+          },
+          "docs": "Retrieve a paginated list of listings."
+        },
+        {
+          "info": {
+            "name": "Create listing",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://open-api.guesty.com/listings",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create a new listing."
+        },
+        {
+          "info": {
+            "name": "Get listing by id",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://open-api.guesty.com/listings/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get listing by id"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

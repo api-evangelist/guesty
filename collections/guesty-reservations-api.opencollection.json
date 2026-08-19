@@ -1,0 +1,80 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Guesty Open Calendars Reservations API",
+    "version": "1.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Reservations",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List reservations",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://open-api.guesty.com/reservations",
+            "params": [
+              {
+                "name": "limit",
+                "value": "",
+                "type": "query"
+              },
+              {
+                "name": "skip",
+                "value": "",
+                "type": "query"
+              }
+            ]
+          },
+          "docs": "List reservations"
+        },
+        {
+          "info": {
+            "name": "Create reservation",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://open-api.guesty.com/reservations",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create reservation"
+        },
+        {
+          "info": {
+            "name": "Get reservation by id",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://open-api.guesty.com/reservations/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get reservation by id"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

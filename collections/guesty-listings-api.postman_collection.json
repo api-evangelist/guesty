@@ -1,0 +1,331 @@
+{
+  "item": [
+    {
+      "id": "ad4e98e3-79fc-4f30-a563-d9a685382b84",
+      "name": "Listings",
+      "description": {
+        "content": "Property listings",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "48ce13bf-5262-482a-9024-e2948a422a98",
+          "name": "List listings",
+          "request": {
+            "name": "List listings",
+            "description": {
+              "content": "Retrieve a paginated list of listings.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "listings"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "limit",
+                  "value": "25"
+                },
+                {
+                  "disabled": false,
+                  "key": "skip",
+                  "value": "0"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "67a3c897-c13b-40ae-a93a-6a2c013dd857",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listings"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "limit",
+                      "value": "25"
+                    },
+                    {
+                      "key": "skip",
+                      "value": "0"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"results\": [\n    {\n      \"_id\": \"string\",\n      \"title\": \"string\",\n      \"nickname\": \"string\",\n      \"accountId\": \"string\",\n      \"active\": false\n    },\n    {\n      \"_id\": \"string\",\n      \"title\": \"string\",\n      \"nickname\": \"string\",\n      \"accountId\": \"string\",\n      \"active\": true\n    }\n  ],\n  \"count\": 9871\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "6f36d937-c211-4adc-bf07-d6e3907376dd",
+          "name": "Create listing",
+          "request": {
+            "name": "Create listing",
+            "description": {
+              "content": "Create a new listing.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "listings"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"_id\": \"<string>\",\n  \"title\": \"<string>\",\n  \"nickname\": \"<string>\",\n  \"accountId\": \"<string>\",\n  \"active\": \"<boolean>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "59742a89-76b3-41c0-958a-deed7aa89a05",
+              "name": "Listing created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listings"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"_id\": \"<string>\",\n  \"title\": \"<string>\",\n  \"nickname\": \"<string>\",\n  \"accountId\": \"<string>\",\n  \"active\": \"<boolean>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"_id\": \"string\",\n  \"title\": \"string\",\n  \"nickname\": \"string\",\n  \"accountId\": \"string\",\n  \"active\": false\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "bde55edf-ddf8-4dc3-949b-65ff9c121707",
+          "name": "Get listing by id",
+          "request": {
+            "name": "Get listing by id",
+            "description": {},
+            "url": {
+              "path": [
+                "listings",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "id",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "7355ffc9-ee1d-43cb-95ed-b940af95efbb",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listings",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"_id\": \"string\",\n  \"title\": \"string\",\n  \"nickname\": \"string\",\n  \"accountId\": \"string\",\n  \"active\": false\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://open-api.guesty.com",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "6bbc0b47-8961-4fcd-ade8-daef9c5fb2ef",
+    "name": "Guesty Open Calendars Listings API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI description for the Guesty Open API. Covers a representative subset of resources for property management including listings, reservations, guests, calendar availability, and conversations across multi-channel distribution. Generated from public documentation; verify before production use.\n\nContact Support:\n Name: Guesty Open API Documentation",
+      "type": "text/plain"
+    }
+  }
+}

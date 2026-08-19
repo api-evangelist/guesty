@@ -1,0 +1,53 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Guesty Open Calendars Guests API",
+    "version": "1.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Guests",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List guests",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://open-api.guesty.com/guests"
+          },
+          "docs": "List guests"
+        },
+        {
+          "info": {
+            "name": "Get guest by id",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://open-api.guesty.com/guests/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get guest by id"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
