@@ -143,6 +143,9 @@ apis:
   - type: ChangeLog
     url: https://open-api-docs.guesty.com/changelog
 common:
+  - type: CapabilityMap
+    url: capabilities/guesty-capability-edges.yml
+    name: Guesty Business Capability Map
   - type: AgenticAccess
     url: agentic-access/guesty-agentic-access.yml
   - type: DomainSecurity

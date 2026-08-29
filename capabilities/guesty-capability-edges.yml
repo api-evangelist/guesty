@@ -1,0 +1,51 @@
+slug: guesty
+provider: Guesty
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Travel & Hospitality
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 4
+edges:
+- tag: Reservations
+  spec_file: guesty-reservations-api-openapi.yml
+  capability_id: BC-4020.10
+  capability_id_l1: BC-4020
+  capability_name: Reservation Capture
+  confidence: 0.9
+  evidence: POST /reservations createReservation Create reservation
+  reason: Creation and retrieval of reservations — reservation capture in the booking lifecycle.
+- tag: Guests
+  spec_file: guesty-guests-api-openapi.yml
+  capability_id: BC-4040.10
+  capability_id_l1: BC-4040
+  capability_name: Guest Profile & Identity Management
+  confidence: 0.8
+  evidence: 'GET /guests listGuests; schemas: GuestList, Guest'
+  reason: Guest record retrieval in a property management platform — stewardship of the guest profile
+    record.
+- tag: Listings
+  spec_file: guesty-listings-api-openapi.yml
+  capability_id: BC-4000.10
+  capability_id_l1: BC-4000
+  capability_name: Lodging Product Management
+  confidence: 0.8
+  evidence: 'POST /listings createListing; schemas: ListingList, Listing'
+  reason: Creation and retrieval of accommodation listings (the bookable lodging product definition) in
+    a short-term rental PMS.
+- tag: Calendars
+  spec_file: guesty-calendars-api-openapi.yml
+  capability_id: BC-4000.50
+  capability_id_l1: BC-4000
+  capability_name: Travel Inventory Allocation
+  confidence: 0.7
+  evidence: GET /calendars/listings/{listingId} getCalendar Get listing calendar
+  reason: Listing availability calendar for short-term rental property management — inventory/availability
+    control over the bookable lodging product. Sub-capability choice is somewhat uncertain between inventory
+    allocation and rate/availability controls.
