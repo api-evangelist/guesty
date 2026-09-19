@@ -36,6 +36,13 @@ tags:
   - Hospitality
   - Property Management
   - Reservations
+  - Short-Term Rental
+  - Vacation Rentals
+tags_raw:
+  - Booking
+  - Hospitality
+  - Property Management
+  - Reservations
   - Short-Term Rentals
   - Vacation Rentals
 url: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/apis.yml
@@ -49,6 +56,8 @@ apis:
   humanURL: https://open-api-docs.guesty.com/
   baseURL: https://open-api.guesty.com
   tags:
+  - Calendar
+  tags_raw:
   - Calendars
   properties:
   - type: OpenAPI
