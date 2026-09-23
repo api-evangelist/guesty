@@ -1,11 +1,7 @@
 {
   "provider": "guesty",
   "sources": [
-    "guesty-calendars-api-openapi.yml",
-    "guesty-conversations-api-openapi.yml",
-    "guesty-guests-api-openapi.yml",
-    "guesty-listings-api-openapi.yml",
-    "guesty-reservations-api-openapi.yml"
+    "_ae-authored/guesty-openapi.yml"
   ],
   "outputs": [
     "guesty-calendars-api-openapi.yml",
@@ -17,6 +13,16 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "guesty-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "guesty-calendars-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "guesty-conversations-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "guesty-guests-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "guesty-listings-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "guesty-reservations-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
