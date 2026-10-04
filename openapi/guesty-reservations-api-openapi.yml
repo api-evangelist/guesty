@@ -80,15 +80,6 @@ paths:
                 $ref: '#/components/schemas/Reservation'
 components:
   schemas:
-    ReservationList:
-      type: object
-      properties:
-        results:
-          type: array
-          items:
-            $ref: '#/components/schemas/Reservation'
-        count:
-          type: integer
     Reservation:
       type: object
       properties:
@@ -106,6 +97,15 @@ components:
           format: date
         status:
           type: string
+    ReservationList:
+      type: object
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Reservation'
+        count:
+          type: integer
   securitySchemes:
     bearerAuth:
       type: http
