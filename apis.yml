@@ -156,6 +156,12 @@ apis:
   - type: ChangeLog
     url: https://open-api-docs.guesty.com/changelog
 common:
+  - type: Plans
+    url: plans/guesty-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/guesty-rate-limits.yml
+  - type: FinOps
+    url: finops/guesty-finops.yml
   - type: CapabilityMap
     url: capabilities/guesty-capability-edges.yml
     name: Guesty Business Capability Map
