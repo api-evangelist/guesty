@@ -27,6 +27,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/airbnb/
   category: null
+  listing_role: channel
   partner_domain: airbnb.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -43,6 +44,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/booking-com/
   category: null
+  listing_role: channel
   partner_domain: booking.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -59,6 +61,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/homeaway/
   category: null
+  listing_role: app
   partner_domain: vrbo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -74,13 +77,14 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/pricelabs/
   category: null
+  listing_role: app
   partner_domain: pricelabs.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
 - partner_name: Beyond
   app: Beyond
-  partner: beyond
-  partner_match: domain+name-among-holders
+  partner: beyond-pricing
+  partner_match: domain
   partner_candidate: null
   type: marketplace
   marketplace: own
@@ -89,6 +93,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/beyond/
   category: null
+  listing_role: app
   partner_domain: beyondpricing.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -104,6 +109,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/wheelhouse/
   category: null
+  listing_role: app
   partner_domain: usewheelhouse.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -119,6 +125,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/airdna/
   category: null
+  listing_role: app
   partner_domain: grsm.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -134,6 +141,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/key-data-dashboard/
   category: null
+  listing_role: app
   partner_domain: keydatadashboard.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -149,6 +157,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/lighthouse/
   category: null
+  listing_role: app
   partner_domain: mylighthouse.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -164,6 +173,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/breezeway/
   category: null
+  listing_role: app
   partner_domain: breezeway.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -179,6 +189,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/ximplifi-accounting/
   category: null
+  listing_role: app
   partner_domain: ximplifi.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -194,6 +205,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/autohost/
   category: null
+  listing_role: app
   partner_domain: autohost.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -209,6 +221,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/stayclean/
   category: null
+  listing_role: app
   partner_domain: stayclean.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -224,6 +237,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/remotelock/
   category: null
+  listing_role: app
   partner_domain: remotelock.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -239,6 +253,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/enso-connect/
   category: null
+  listing_role: app
   partner_domain: ensoconnect.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -254,6 +269,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/safely/
   category: null
+  listing_role: app
   partner_domain: safely.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -269,6 +285,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/lynx/
   category: null
+  listing_role: app
   partner_domain: getlynx.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -284,6 +301,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/klaviyo/
   category: null
+  listing_role: app
   partner_domain: klaviyo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -299,6 +317,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/turno/
   category: null
+  listing_role: app
   partner_domain: turno.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -314,6 +333,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/into/
   category: null
+  listing_role: app
   partner_domain: weareinto.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -329,6 +349,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/minut/
   category: null
+  listing_role: app
   partner_domain: minut.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -344,6 +365,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/aloware/
   category: null
+  listing_role: app
   partner_domain: aloware.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -359,6 +381,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/operto/
   category: null
+  listing_role: app
   partner_domain: operto.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -374,6 +397,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/jebitech/
   category: null
+  listing_role: app
   partner_domain: jebitech.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -389,6 +413,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/api-nation/
   category: null
+  listing_role: app
   partner_domain: apination.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -404,6 +429,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/monterra-tax/
   category: null
+  listing_role: app
   partner_domain: monterratax.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -419,6 +445,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/petscreening/
   category: null
+  listing_role: app
   partner_domain: petscreening.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -434,6 +461,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/simon-lehmann-str-academy/
   category: null
+  listing_role: app
   partner_domain: simonlehmann.net
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -449,6 +477,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/guestrevu/
   category: null
+  listing_role: app
   partner_domain: guestrevu.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -464,6 +493,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/red-sky-travel-insurance/
   category: null
+  listing_role: app
   partner_domain: redskyinsurance.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -479,6 +509,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/chekin/
   category: null
+  listing_role: app
   partner_domain: chekin.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -494,6 +525,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/voicetta/
   category: null
+  listing_role: app
   partner_domain: voicetta.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -509,6 +541,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/thehost-co/
   category: null
+  listing_role: app
   partner_domain: thehost.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -524,6 +557,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/vrplatform/
   category: null
+  listing_role: app
   partner_domain: vrplatform.app
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -539,6 +573,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/properly/
   category: null
+  listing_role: app
   partner_domain: getproperly.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -554,6 +589,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/stayfi/
   category: null
+  listing_role: app
   partner_domain: stayfi.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -569,6 +605,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/epicurate/
   category: null
+  listing_role: app
   partner_domain: epicurate.vip
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -584,6 +621,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/px-accounting/
   category: null
+  listing_role: app
   partner_domain: pxaccounting.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -599,6 +637,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/otamiser/
   category: null
+  listing_role: app
   partner_domain: otamiser.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -614,6 +653,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/topkey/
   category: null
+  listing_role: app
   partner_domain: topkey.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -629,6 +669,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/identified/
   category: null
+  listing_role: app
   partner_domain: identified.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -644,6 +685,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/connect-by-boostly/
   category: null
+  listing_role: app
   partner_domain: connectyourpms.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -659,6 +701,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/right-to-rent-collaborative/
   category: null
+  listing_role: app
   partner_domain: r2rcollaborative.org
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -674,6 +717,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/revinate/
   category: null
+  listing_role: app
   partner_domain: revinate.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -689,6 +733,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/unlocker/
   category: null
+  listing_role: app
   partner_domain: unlocker.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -704,6 +749,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/trellis/
   category: null
+  listing_role: app
   partner_domain: trellistech.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -719,6 +765,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/zesty-automations/
   category: null
+  listing_role: app
   partner_domain: zestyautomations.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -734,6 +781,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/yacan/
   category: null
+  listing_role: app
   partner_domain: yacan.es
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -749,6 +797,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/checknbill/
   category: null
+  listing_role: app
   partner_domain: checknbill.de
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -764,6 +813,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/good-to-book/
   category: null
+  listing_role: app
   partner_domain: goodtobook.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -779,6 +829,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/aquamind/
   category: null
+  listing_role: app
   partner_domain: aquamindpools.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -794,6 +845,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/scurto-marketing/
   category: null
+  listing_role: app
   partner_domain: scurto.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -809,6 +861,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/codex/
   category: null
+  listing_role: app
   partner_domain: codexsolutionsint.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -824,6 +877,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/aipex/
   category: null
+  listing_role: app
   partner_domain: aipextech.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -839,6 +893,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/crew/
   category: null
+  listing_role: app
   partner_domain: crewhomeapp.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -854,6 +909,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/realtech-webmasters/
   category: null
+  listing_role: app
   partner_domain: realtechvr.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -869,6 +925,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/aidaptive/
   category: null
+  listing_role: app
   partner_domain: aidaptive.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -884,6 +941,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/linkbase/
   category: null
+  listing_role: app
   partner_domain: linkbase.ca
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -899,6 +957,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/suiteop/
   category: null
+  listing_role: app
   partner_domain: suiteop.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -914,6 +973,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/triparound/
   category: null
+  listing_role: app
   partner_domain: triparound.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -929,6 +989,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/guestarrive/
   category: null
+  listing_role: app
   partner_domain: guestarrive.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -944,6 +1005,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/charge-automation/
   category: null
+  listing_role: app
   partner_domain: chargeautomation.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -959,6 +1021,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/evrystay/
   category: null
+  listing_role: app
   partner_domain: evrystay.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -974,6 +1037,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/summeros/
   category: null
+  listing_role: app
   partner_domain: summeros.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -989,6 +1053,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/primehost/
   category: null
+  listing_role: app
   partner_domain: primehost.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1004,6 +1069,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/travelsnap-ai/
   category: null
+  listing_role: app
   partner_domain: travelsnap.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1019,6 +1085,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sentinel/
   category: null
+  listing_role: app
   partner_domain: gosentinel.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1034,6 +1101,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/autorank/
   category: null
+  listing_role: app
   partner_domain: autorank.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1049,6 +1117,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/wiisy/
   category: null
+  listing_role: app
   partner_domain: wiisy.app
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1064,6 +1133,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/besty-ai/
   category: null
+  listing_role: app
   partner_domain: getbesty.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1079,6 +1149,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/tallybreeze/
   category: null
+  listing_role: app
   partner_domain: tallybreeze.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1094,6 +1165,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/chargeblast/
   category: null
+  listing_role: app
   partner_domain: chargeblast.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1109,6 +1181,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/pmspros-advisors/
   category: null
+  listing_role: app
   partner_domain: thepmspros.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1124,6 +1197,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/clonmy-ai/
   category: null
+  listing_role: app
   partner_domain: clonmy.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1139,6 +1213,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/mjn-accounting/
   category: null
+  listing_role: app
   partner_domain: mjnaccountingco.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1154,6 +1229,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/conduit/
   category: null
+  listing_role: app
   partner_domain: conduit.app
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1169,6 +1245,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/craftedstays/
   category: null
+  listing_role: app
   partner_domain: craftedstays.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1184,6 +1261,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/lula-cleaning/
   category: null
+  listing_role: app
   partner_domain: lula.cleaning
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1199,6 +1277,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/edgewater-firm/
   category: null
+  listing_role: app
   partner_domain: metriqe.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1214,6 +1293,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/guestgenie/
   category: null
+  listing_role: app
   partner_domain: guestgenie.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1229,6 +1309,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/extenteam/
   category: null
+  listing_role: app
   partner_domain: extenteam.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1244,6 +1325,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/clearing/
   category: null
+  listing_role: app
   partner_domain: getclearing.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1259,6 +1341,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/rentamira/
   category: null
+  listing_role: app
   partner_domain: rentamira.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1274,6 +1357,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/thuro-accounting/
   category: null
+  listing_role: app
   partner_domain: thuro.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1289,6 +1373,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/arqdia-intelligence/
   category: null
+  listing_role: app
   partner_domain: arqdia.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1304,6 +1389,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/gritchen/
   category: null
+  listing_role: app
   partner_domain: gritchen-assurances.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1319,6 +1405,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/strly/
   category: null
+  listing_role: app
   partner_domain: strly.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1334,6 +1421,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/aruvo-tv/
   category: null
+  listing_role: app
   partner_domain: aruvotv.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1349,6 +1437,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sendsquared/
   category: null
+  listing_role: app
   partner_domain: sendsquared.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1364,6 +1453,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/homerunner/
   category: null
+  listing_role: app
   partner_domain: homerunner.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1379,6 +1469,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sparrow/
   category: null
+  listing_role: app
   partner_domain: sparrowintel.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1394,6 +1485,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/keystone-bookkeepers/
   category: null
+  listing_role: app
   partner_domain: keystonebookkeepers.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1409,6 +1501,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/proptonomy/
   category: null
+  listing_role: app
   partner_domain: proptonomy.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1424,6 +1517,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/smarthotel/
   category: null
+  listing_role: app
   partner_domain: mysmarthotel.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1439,6 +1533,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/truvi/
   category: null
+  listing_role: app
   partner_domain: truvi.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1454,6 +1549,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/homeresa/
   category: null
+  listing_role: app
   partner_domain: homeresa.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1469,6 +1565,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hopy-suite/
   category: null
+  listing_role: app
   partner_domain: hopysuite.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1484,6 +1581,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/invisible-hand/
   category: null
+  listing_role: app
   partner_domain: invisiblehand.app
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1499,6 +1597,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/doinn/
   category: null
+  listing_role: app
   partner_domain: doinn.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1514,6 +1613,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/xplorie/
   category: null
+  listing_role: app
   partner_domain: xplorie.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1529,6 +1629,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/revieweraser-ai/
   category: null
+  listing_role: app
   partner_domain: null
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1544,6 +1645,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/visito/
   category: null
+  listing_role: app
   partner_domain: visitoai.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1559,6 +1661,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/happy-guest/
   category: null
+  listing_role: app
   partner_domain: happyguestofficial.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1574,6 +1677,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/wolf-pack-consulting/
   category: null
+  listing_role: app
   partner_domain: jointhewolfpack.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1589,6 +1693,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/maveriks/
   category: null
+  listing_role: app
   partner_domain: maveriks.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1604,6 +1709,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/diamo/
   category: null
+  listing_role: app
   partner_domain: diamo.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1619,6 +1725,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/i-am-cfo/
   category: null
+  listing_role: app
   partner_domain: iamcfo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1634,6 +1741,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/roomchecking/
   category: null
+  listing_role: app
   partner_domain: roomchecking.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1649,6 +1757,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/safeguest/
   category: null
+  listing_role: app
   partner_domain: safeguest.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1664,6 +1773,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/aeve-ai/
   category: null
+  listing_role: app
   partner_domain: aeve.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1679,6 +1789,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/jottogo/
   category: null
+  listing_role: app
   partner_domain: jottogo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1694,6 +1805,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hostgpo/
   category: null
+  listing_role: app
   partner_domain: hostgpo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1709,6 +1821,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/chefmaison/
   category: null
+  listing_role: app
   partner_domain: chefmaison.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1724,6 +1837,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sprchrgr/
   category: null
+  listing_role: app
   partner_domain: sprchrgr.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1739,6 +1853,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hostai/
   category: null
+  listing_role: app
   partner_domain: gethostai.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1754,6 +1869,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/yhangry/
   category: null
+  listing_role: app
   partner_domain: yhangry.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1769,6 +1885,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bellhopt/
   category: null
+  listing_role: app
   partner_domain: bellhopt.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1784,6 +1901,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/tigertms/
   category: null
+  listing_role: app
   partner_domain: tigertms.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1799,6 +1917,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/priceadvize/
   category: null
+  listing_role: app
   partner_domain: priceadvize.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1814,6 +1933,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/simplex/
   category: null
+  listing_role: app
   partner_domain: simplex-ltd.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1829,6 +1949,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bounce/
   category: null
+  listing_role: app
   partner_domain: bounce.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1844,6 +1965,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/villacontrol/
   category: null
+  listing_role: app
   partner_domain: villacontrol.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1859,6 +1981,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/short-rental-manager/
   category: null
+  listing_role: app
   partner_domain: shortrentalmanager.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1874,6 +1997,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/delegate-co/
   category: null
+  listing_role: app
   partner_domain: delegate.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1889,6 +2013,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/blizzard-breakthroughs/
   category: null
+  listing_role: app
   partner_domain: blizzardbreakthroughs.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1904,6 +2029,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/cookingenie/
   category: null
+  listing_role: app
   partner_domain: cookingenie.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1919,6 +2045,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/rate-parity/
   category: null
+  listing_role: app
   partner_domain: rateparity.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1934,6 +2061,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/cendra/
   category: null
+  listing_role: app
   partner_domain: cendra.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1949,6 +2077,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hostfront/
   category: null
+  listing_role: app
   partner_domain: gethostai.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1964,6 +2093,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/optimal/
   category: null
+  listing_role: app
   partner_domain: optimalunlimited.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1979,6 +2109,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bnb-consulting/
   category: null
+  listing_role: app
   partner_domain: bnbconsulting.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -1994,6 +2125,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/revnest/
   category: null
+  listing_role: app
   partner_domain: revnest.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2009,6 +2141,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/fido/
   category: null
+  listing_role: app
   partner_domain: getfido.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2024,6 +2157,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/lush-living-designs/
   category: null
+  listing_role: app
   partner_domain: lldesignsnc.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2039,6 +2173,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hple-hospitality-communications/
   category: null
+  listing_role: app
   partner_domain: hplecc.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2054,6 +2189,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/magnetic-strategy/
   category: null
+  listing_role: app
   partner_domain: magneticstrategy.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2069,6 +2205,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hudson-creative-studio/
   category: null
+  listing_role: app
   partner_domain: hudsoncreativestudio.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2084,6 +2221,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hostbuddy-ai/
   category: null
+  listing_role: app
   partner_domain: hostbuddy.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2099,6 +2237,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/welcomescreen/
   category: null
+  listing_role: app
   partner_domain: welcomescreen.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2114,6 +2253,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/lowkey/
   category: null
+  listing_role: app
   partner_domain: lowkeybuzzer.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2129,6 +2269,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hostallies/
   category: null
+  listing_role: app
   partner_domain: hostallies.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2144,6 +2285,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hostvisors/
   category: null
+  listing_role: app
   partner_domain: hostvisors.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2159,6 +2301,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/onseason/
   category: null
+  listing_role: app
   partner_domain: onseason.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2174,6 +2317,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/touch-stay/
   category: null
+  listing_role: app
   partner_domain: touchstay.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2189,6 +2333,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/cs-outsource/
   category: null
+  listing_role: app
   partner_domain: csoutsource.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2204,6 +2349,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bilemon/
   category: null
+  listing_role: app
   partner_domain: bilemon.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2219,6 +2365,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/direct-booking-tools/
   category: null
+  listing_role: app
   partner_domain: directbookingtools.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2234,6 +2381,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bnbcalc/
   category: null
+  listing_role: app
   partner_domain: bnbcalc.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2249,6 +2397,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/gozerocharge/
   category: null
+  listing_role: app
   partner_domain: gozerocharge.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2264,6 +2413,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/buildup-bookings/
   category: null
+  listing_role: app
   partner_domain: buildupbookings.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2279,6 +2429,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/techtape/
   category: null
+  listing_role: app
   partner_domain: gettechtape.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2294,6 +2445,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/intellihost/
   category: null
+  listing_role: app
   partner_domain: intellihost.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2309,6 +2461,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/trippz/
   category: null
+  listing_role: app
   partner_domain: trippz.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2324,6 +2477,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/synchronest/
   category: null
+  listing_role: app
   partner_domain: synchronest.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2339,6 +2493,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sweeply/
   category: null
+  listing_role: app
   partner_domain: getsweeply.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2354,6 +2509,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/guestlabs/
   category: null
+  listing_role: app
   partner_domain: guestlabs.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2369,6 +2525,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/waive/
   category: null
+  listing_role: app
   partner_domain: waivecover.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2384,6 +2541,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hostvana/
   category: null
+  listing_role: app
   partner_domain: hostvana.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2399,6 +2557,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sayso-videos/
   category: null
+  listing_role: app
   partner_domain: sayso.video
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2414,6 +2573,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bnbills/
   category: null
+  listing_role: app
   partner_domain: bnbills.de
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2429,6 +2589,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/yaago/
   category: null
+  listing_role: app
   partner_domain: yaago.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2444,6 +2605,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/keycafe/
   category: null
+  listing_role: app
   partner_domain: keycafe.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2459,6 +2621,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/cozyup/
   category: null
+  listing_role: app
   partner_domain: cozyup.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2474,6 +2637,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/localbird/
   category: null
+  listing_role: app
   partner_domain: localbird.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2489,6 +2653,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/clyn/
   category: null
+  listing_role: app
   partner_domain: clyn.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2504,6 +2669,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/lasoh/
   category: null
+  listing_role: app
   partner_domain: lasoh.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2519,6 +2685,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/akia/
   category: null
+  listing_role: app
   partner_domain: akia.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2534,6 +2701,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/dharma/
   category: null
+  listing_role: app
   partner_domain: dharma-grp.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2549,6 +2717,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/planit/
   category: null
+  listing_role: app
   partner_domain: planit.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2564,6 +2733,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/roam/
   category: null
+  listing_role: app
   partner_domain: goroam.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2579,6 +2749,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/str-logic/
   category: null
+  listing_role: app
   partner_domain: strlogic.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2594,6 +2765,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/expedia/
   category: null
+  listing_role: app
   partner_domain: expedia.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2609,6 +2781,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/google/
   category: null
+  listing_role: app
   partner_domain: null
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2624,6 +2797,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/homes-villas-marriott-bonvoy/
   category: null
+  listing_role: app
   partner_domain: marriott.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2639,6 +2813,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/hopper/
   category: null
+  listing_role: channel
   partner_domain: hopper.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2655,6 +2830,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/hometogo/
   category: null
+  listing_role: channel
   partner_domain: hometogo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2671,6 +2847,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/travelstaytion/
   category: null
+  listing_role: app
   partner_domain: travelstaytion.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2686,6 +2863,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/plumguide/
   category: null
+  listing_role: app
   partner_domain: plumguide.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2701,6 +2879,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/wander/
   category: null
+  listing_role: app
   partner_domain: wander.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2716,6 +2895,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/whimstay/
   category: null
+  listing_role: app
   partner_domain: whimstay.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2731,6 +2911,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/glampinghub/
   category: null
+  listing_role: app
   partner_domain: glampinghub.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2746,6 +2927,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/holidu/
   category: null
+  listing_role: channel
   partner_domain: holidu.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2762,6 +2944,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/blueground/
   category: null
+  listing_role: app
   partner_domain: theblueground.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2772,14 +2955,17 @@ edges:
   partner_candidate: null
   type: marketplace
   marketplace: own
-  channel: partner-built
+  channel: null
   relationship: platform-app
-  direction: partner-built
+  direction: unknown
   evidence: https://www.guesty.com/marketplace-items/capital-one-by-hopper-homes-integration/
   category: null
+  listing_role: payment-gateway
   partner_domain: capitalone.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
+  partner_note: payment gateway listed in the store; the PMS integrates the gateway, the store does not say the
+    gateway built it
 - partner_name: Trip.com
   app: Trip.com
   partner: tripcom
@@ -2792,6 +2978,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/trip-com/
   category: null
+  listing_role: channel
   partner_domain: trip.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2808,6 +2995,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/crewdogs/
   category: null
+  listing_role: app
   partner_domain: crewdogs.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2823,6 +3011,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/belvilla-by-oyo/
   category: null
+  listing_role: app
   partner_domain: belvilla.nl
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2838,6 +3027,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/toronto-boutique-apartments/
   category: null
+  listing_role: app
   partner_domain: torontoboutiqueapartments.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2853,6 +3043,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/smiling-house/
   category: null
+  listing_role: app
   partner_domain: smilinghouse.ch
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2868,6 +3059,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/villa-tracker/
   category: null
+  listing_role: app
   partner_domain: villatracker.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2883,6 +3075,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/keepers/
   category: null
+  listing_role: app
   partner_domain: usekeepers.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2898,6 +3091,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/payumo-capital/
   category: null
+  listing_role: app
   partner_domain: payumocapital.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2913,6 +3107,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/reconline/
   category: null
+  listing_role: app
   partner_domain: reconline.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2928,6 +3123,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/vivrestays/
   category: null
+  listing_role: app
   partner_domain: vivrestays.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2943,6 +3139,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/livily/
   category: null
+  listing_role: app
   partner_domain: livily.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2958,6 +3155,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/angells/
   category: null
+  listing_role: app
   partner_domain: angells.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2973,6 +3171,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/luxico/
   category: null
+  listing_role: app
   partner_domain: luxico.com.au
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -2988,6 +3187,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/savvy/
   category: null
+  listing_role: app
   partner_domain: savvy.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3003,6 +3203,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/staylonger/
   category: null
+  listing_role: app
   partner_domain: staylonger.com.au
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3018,6 +3219,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/trustedstays/
   category: null
+  listing_role: app
   partner_domain: trustedstays.co.uk
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3033,6 +3235,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/findrentals/
   category: null
+  listing_role: app
   partner_domain: findrentals.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3048,6 +3251,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/vacayhome/
   category: null
+  listing_role: app
   partner_domain: vacayhome.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3063,6 +3267,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/inveniohomes/
   category: null
+  listing_role: app
   partner_domain: inveniohomes.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3078,6 +3283,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/infinite-management/
   category: null
+  listing_role: app
   partner_domain: infinitemanagementllc.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3093,6 +3299,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/housestay/
   category: null
+  listing_role: app
   partner_domain: housestay.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3108,6 +3315,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/hotelbeds/
   category: null
+  listing_role: channel
   partner_domain: hotelbeds.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3124,6 +3332,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/rentalz/
   category: null
+  listing_role: app
   partner_domain: rentalz.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3139,6 +3348,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/lekkeslaap/
   category: null
+  listing_role: app
   partner_domain: lekkeslaap.co.za
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3154,6 +3364,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/travia-is/
   category: null
+  listing_role: app
   partner_domain: travia.is
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3169,6 +3380,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/feratel/
   category: null
+  listing_role: app
   partner_domain: feratel.at
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3184,6 +3396,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/beachguide/
   category: null
+  listing_role: app
   partner_domain: beachguide.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3199,6 +3412,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/livjaza/
   category: null
+  listing_role: app
   partner_domain: null
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3214,6 +3428,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/szallas-hu/
   category: null
+  listing_role: app
   partner_domain: szallas.hu
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3229,6 +3444,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/stay-2/
   category: null
+  listing_role: app
   partner_domain: staywithstay.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3244,6 +3460,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/mister-bb/
   category: null
+  listing_role: app
   partner_domain: misterbandb.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3254,14 +3471,17 @@ edges:
   partner_candidate: null
   type: marketplace
   marketplace: own
-  channel: partner-built
+  channel: null
   relationship: platform-app
-  direction: partner-built
+  direction: unknown
   evidence: https://www.guesty.com/marketplace-items/flywire/
   category: null
+  listing_role: payment-gateway
   partner_domain: flywire.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
+  partner_note: payment gateway listed in the store; the PMS integrates the gateway, the store does not say the
+    gateway built it
 - partner_name: Directo
   app: Directo
   partner: null
@@ -3274,6 +3494,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/directo/
   category: null
+  listing_role: app
   partner_domain: getdirecto.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3289,6 +3510,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hello-guest-screen/
   category: null
+  listing_role: app
   partner_domain: helloguestscreen.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3304,6 +3526,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/opertoteams/
   category: null
+  listing_role: app
   partner_domain: vrscheduler.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3319,6 +3542,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/badbugs/
   category: null
+  listing_role: app
   partner_domain: badbugs.fr
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3334,6 +3558,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sequence/
   category: null
+  listing_role: app
   partner_domain: getsequence.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3349,6 +3574,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/richer-logic/
   category: null
+  listing_role: app
   partner_domain: richerlogic.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3364,6 +3590,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/speicher-revenue-consulting/
   category: null
+  listing_role: app
   partner_domain: timspeicher.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3379,6 +3606,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/propfit/
   category: null
+  listing_role: app
   partner_domain: prop.fit
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3394,6 +3622,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/smartpricing/
   category: null
+  listing_role: app
   partner_domain: smartpricing.it
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3409,6 +3638,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/reva/
   category: null
+  listing_role: app
   partner_domain: joinreva.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3424,6 +3654,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/vayklife/
   category: null
+  listing_role: app
   partner_domain: vayklife.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3439,6 +3670,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/lybra-tech/
   category: null
+  listing_role: app
   partner_domain: lybra.tech
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3454,6 +3686,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/siteminder/
   category: null
+  listing_role: app
   partner_domain: siteminder.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3469,6 +3702,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/generali-global-assistance/
   category: null
+  listing_role: app
   partner_domain: generaliglobalassistance.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3484,6 +3718,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/faye-travel-insurance/
   category: null
+  listing_role: app
   partner_domain: withfaye.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3499,6 +3734,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/tmrw/
   category: null
+  listing_role: app
   partner_domain: tmrwhotels.life
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3514,6 +3750,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/revyoos/
   category: null
+  listing_role: app
   partner_domain: revyoos.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3529,6 +3766,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/triangle-luxury-real-estate/
   category: null
+  listing_role: app
   partner_domain: triangle-luxury.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3544,6 +3782,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/pacho/
   category: null
+  listing_role: app
   partner_domain: pacho.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3559,6 +3798,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/propertyhero/
   category: null
+  listing_role: app
   partner_domain: propertyhero.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3574,6 +3814,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/cartstack/
   category: null
+  listing_role: app
   partner_domain: cartstack.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3589,6 +3830,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/duve/
   category: null
+  listing_role: app
   partner_domain: getduve.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3604,6 +3846,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sofia-ai/
   category: null
+  listing_role: app
   partner_domain: hiresofia.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3619,6 +3862,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/ecoair/
   category: null
+  listing_role: app
   partner_domain: ecoair.cloud
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3634,6 +3878,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/vr-goals/
   category: null
+  listing_role: app
   partner_domain: vr-goals.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3649,6 +3894,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/prohost-ai/
   category: null
+  listing_role: app
   partner_domain: prohost.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3664,6 +3910,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/spotzer-agency/
   category: null
+  listing_role: app
   partner_domain: spotzeragency.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3679,6 +3926,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/webact/
   category: null
+  listing_role: app
   partner_domain: webact.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3694,6 +3942,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/olive-street-design/
   category: null
+  listing_role: app
   partner_domain: olivestreetdesign.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3709,6 +3958,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/cortado-ai/
   category: null
+  listing_role: app
   partner_domain: cortado-ai.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3724,6 +3974,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/gategoing/
   category: null
+  listing_role: app
   partner_domain: gategoing.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3739,6 +3990,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/folio/
   category: null
+  listing_role: app
   partner_domain: foliotravel.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3754,6 +4006,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/una/
   category: null
+  listing_role: app
   partner_domain: polydom.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3769,6 +4022,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/puls-home-services/
   category: null
+  listing_role: app
   partner_domain: puls.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3784,6 +4038,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/securestay/
   category: null
+  listing_role: app
   partner_domain: securestay.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3799,6 +4054,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/brisa/
   category: null
+  listing_role: app
   partner_domain: brisausa.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3814,6 +4070,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/resortcleaning/
   category: null
+  listing_role: app
   partner_domain: resortcleaning.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3829,6 +4086,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/movinglake/
   category: null
+  listing_role: app
   partner_domain: movinglake.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3844,6 +4102,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/behome247/
   category: null
+  listing_role: app
   partner_domain: behome247.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3859,6 +4118,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/chargeback-gurus/
   category: null
+  listing_role: app
   partner_domain: chargebackgurus.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3874,6 +4134,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/toptipper/
   category: null
+  listing_role: app
   partner_domain: toptipper.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3889,6 +4150,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hyp/
   category: null
+  listing_role: app
   partner_domain: hyp.co.il
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3904,6 +4166,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/youlend/
   category: null
+  listing_role: app
   partner_domain: youlend.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3919,6 +4182,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/hirum/
   category: null
+  listing_role: app
   partner_domain: null
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3934,14 +4198,15 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/customyze/
   category: null
+  listing_role: app
   partner_domain: customyze.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
 - partner_name: Signal by Beyond
   app: Signal by Beyond
-  partner: beyond
-  partner_match: domain+name-among-holders
-  partner_candidate: null
+  partner: null
+  partner_match: null
+  partner_candidate: beyond-pricing
   type: marketplace
   marketplace: own
   channel: partner-built
@@ -3949,6 +4214,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/signal-by-beyond/
   category: null
+  listing_role: app
   partner_domain: beyondpricing.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3964,6 +4230,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/loopkey/
   category: null
+  listing_role: app
   partner_domain: loopkey.com.br
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3979,6 +4246,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/merchant-warrior/
   category: null
+  listing_role: app
   partner_domain: merchantwarrior.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -3994,6 +4262,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/alertify/
   category: null
+  listing_role: app
   partner_domain: alertify.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4009,6 +4278,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/public-goods/
   category: null
+  listing_role: app
   partner_domain: publicgoods.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4024,6 +4294,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/keyninja/
   category: null
+  listing_role: app
   partner_domain: keyninja.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4039,6 +4310,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/vintory/
   category: null
+  listing_role: app
   partner_domain: vintory.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4054,6 +4326,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sojo/
   category: null
+  listing_role: app
   partner_domain: getsojo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4069,6 +4342,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/dpgo/
   category: null
+  listing_role: app
   partner_domain: dpgo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4084,6 +4358,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/cleanstercom/
   category: null
+  listing_role: app
   partner_domain: cleanster.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4099,6 +4374,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/tidy/
   category: null
+  listing_role: app
   partner_domain: tidy.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4114,6 +4390,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/styled-interior-design/
   category: null
+  listing_role: app
   partner_domain: styledinteriordesign.co.uk
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4129,6 +4406,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/ok2charge/
   category: null
+  listing_role: app
   partner_domain: ok2charge.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4144,6 +4422,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/toast/
   category: null
+  listing_role: app
   partner_domain: toasttab.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4159,6 +4438,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/tedee/
   category: null
+  listing_role: app
   partner_domain: tedee.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4174,6 +4454,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/loanbase/
   category: null
+  listing_role: app
   partner_domain: loanbase.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4189,6 +4470,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/radical-storage/
   category: null
+  listing_role: app
   partner_domain: radicalstorage.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4204,6 +4486,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/aura-air/
   category: null
+  listing_role: app
   partner_domain: auraair.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4219,6 +4502,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/jervis-systems/
   category: null
+  listing_role: app
   partner_domain: jervis.systems
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4234,6 +4518,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/akiles/
   category: null
+  listing_role: app
   partner_domain: akiles.app
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4249,6 +4534,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hello-george/
   category: null
+  listing_role: app
   partner_domain: hellogeorge.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4264,6 +4550,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/ruebarue/
   category: null
+  listing_role: app
   partner_domain: ruebarue.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4279,6 +4566,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bnsellit/
   category: null
+  listing_role: app
   partner_domain: bnsellit.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4294,6 +4582,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/boostly/
   category: null
+  listing_role: app
   partner_domain: boostly.co.uk
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4309,6 +4598,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/viggo/
   category: null
+  listing_role: app
   partner_domain: viggosmarthotel.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4324,6 +4614,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/icnd/
   category: null
+  listing_role: app
   partner_domain: icnd.net
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4339,6 +4630,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/calirom/
   category: null
+  listing_role: app
   partner_domain: calirom.ro
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4354,6 +4646,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/gold-shark/
   category: null
+  listing_role: app
   partner_domain: gold-shark.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4369,6 +4662,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/simpra/
   category: null
+  listing_role: app
   partner_domain: simprasuite.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4384,6 +4678,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/orana-stay/
   category: null
+  listing_role: app
   partner_domain: oranastay.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4399,6 +4694,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/tallorder-pos/
   category: null
+  listing_role: app
   partner_domain: tallorderpos.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4414,6 +4710,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/homsure/
   category: null
+  listing_role: app
   partner_domain: homsure.com.au
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4429,6 +4726,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/xperium/
   category: null
+  listing_role: app
   partner_domain: xperium.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4444,6 +4742,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/for-sight/
   category: null
+  listing_role: app
   partner_domain: for-sight.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4459,6 +4758,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/pricepoint/
   category: null
+  listing_role: app
   partner_domain: pricepoint.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4474,6 +4774,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/brivo/
   category: null
+  listing_role: app
   partner_domain: brivo.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4489,6 +4790,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/upsellguru/
   category: null
+  listing_role: app
   partner_domain: upsellguru.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4504,6 +4806,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/tourdesk/
   category: null
+  listing_role: app
   partner_domain: tourdesk.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4519,6 +4822,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/valnes/
   category: null
+  listing_role: app
   partner_domain: valnes.ee
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4534,6 +4838,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hnext/
   category: null
+  listing_role: app
   partner_domain: hnext.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4549,6 +4854,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/payem/
   category: null
+  listing_role: app
   partner_domain: null
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4564,6 +4870,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/yada/
   category: null
+  listing_role: app
   partner_domain: yada.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4579,6 +4886,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/authenticating-com/
   category: null
+  listing_role: app
   partner_domain: authenticating.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4594,6 +4902,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hospy/
   category: null
+  listing_role: app
   partner_domain: hospy.ai
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4609,6 +4918,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/huswell/
   category: null
+  listing_role: app
   partner_domain: huswell.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4624,6 +4934,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/roompricegenie/
   category: null
+  listing_role: app
   partner_domain: roompricegenie.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4639,6 +4950,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/insuraguest/
   category: null
+  listing_role: app
   partner_domain: insuraguest.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4654,6 +4966,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/online-tourism/
   category: null
+  listing_role: app
   partner_domain: onlinetourism.com.au
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4669,6 +4982,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/check-in-scan/
   category: null
+  listing_role: app
   partner_domain: checkinscan.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4684,6 +4998,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/ezcare/
   category: null
+  listing_role: app
   partner_domain: ezcare.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4699,6 +5014,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/nuki/
   category: null
+  listing_role: app
   partner_domain: nuki.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4714,6 +5030,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/noshable/
   category: null
+  listing_role: app
   partner_domain: shopnoshable.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4729,6 +5046,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/ibindo/
   category: null
+  listing_role: app
   partner_domain: ibindo.at
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4744,6 +5062,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/virtual-front-desk/
   category: null
+  listing_role: app
   partner_domain: virtualfrontdesk.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4759,6 +5078,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/puls/
   category: null
+  listing_role: app
   partner_domain: puls.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4774,6 +5094,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/cityride/
   category: null
+  listing_role: app
   partner_domain: cityride.co
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4789,6 +5110,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/travello-app/
   category: null
+  listing_role: app
   partner_domain: travelloapp.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4804,6 +5126,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/teliportme/
   category: null
+  listing_role: app
   partner_domain: teliportme.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4819,6 +5142,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/theodora/
   category: null
+  listing_role: app
   partner_domain: stavtheodor.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4834,6 +5158,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bridgify/
   category: null
+  listing_role: app
   partner_domain: bridgify.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4849,6 +5174,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/flexkeeping/
   category: null
+  listing_role: app
   partner_domain: flexkeeping.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4864,6 +5190,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/beyondbooking/
   category: null
+  listing_role: app
   partner_domain: beyondbooking.ca
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4879,6 +5206,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/pikl/
   category: null
+  listing_role: app
   partner_domain: pikl.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4894,6 +5222,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/swikly/
   category: null
+  listing_role: app
   partner_domain: swikly.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4909,6 +5238,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/aurmur/
   category: null
+  listing_role: app
   partner_domain: aurmur.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4924,6 +5254,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/stasher/
   category: null
+  listing_role: app
   partner_domain: stasher.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4939,6 +5270,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/babyquip/
   category: null
+  listing_role: app
   partner_domain: babyquip.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4954,6 +5286,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/hostu/
   category: null
+  listing_role: app
   partner_domain: host-u.io
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4969,6 +5302,7 @@ edges:
   direction: unknown
   evidence: https://www.guesty.com/marketplace-items/lugless/
   category: null
+  listing_role: app
   partner_domain: null
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4984,6 +5318,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bagsaway/
   category: null
+  listing_role: app
   partner_domain: bagsaway.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -4999,6 +5334,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/luggagehero/
   category: null
+  listing_role: app
   partner_domain: luggagehero.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5014,6 +5350,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/powersetter/
   category: null
+  listing_role: app
   partner_domain: powersetter.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5029,6 +5366,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sclak/
   category: null
+  listing_role: app
   partner_domain: sclak.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5044,6 +5382,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/vikey/
   category: null
+  listing_role: app
   partner_domain: vikey.it
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5059,6 +5398,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/sharebox/
   category: null
+  listing_role: app
   partner_domain: sharebox.global
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5074,6 +5414,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/keynest/
   category: null
+  listing_role: app
   partner_domain: keynest.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5089,6 +5430,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/roomonitor/
   category: null
+  listing_role: app
   partner_domain: roomonitor.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5104,6 +5446,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/proper-insurance/
   category: null
+  listing_role: app
   partner_domain: proper.insure
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5119,6 +5462,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/fulhaus/
   category: null
+  listing_role: app
   partner_domain: fulhaus.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5134,6 +5478,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/rentals-united/
   category: null
+  listing_role: app
   partner_domain: rentalsunited.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5144,14 +5489,17 @@ edges:
   partner_candidate: null
   type: marketplace
   marketplace: own
-  channel: partner-built
+  channel: null
   relationship: platform-app
-  direction: partner-built
+  direction: unknown
   evidence: https://www.guesty.com/marketplace-items/stripe/
   category: null
+  listing_role: payment-gateway
   partner_domain: stripe.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
+  partner_note: payment gateway listed in the store; the PMS integrates the gateway, the store does not say the
+    gateway built it
 - partner_name: PointCentral Home Automation, Keyless Access
   app: PointCentral Home Automation, Keyless Access
   partner: null
@@ -5164,6 +5512,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/point-central/
   category: null
+  listing_role: app
   partner_domain: pointcentral.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5179,6 +5528,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/quibble/
   category: null
+  listing_role: app
   partner_domain: quibblerm.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5194,6 +5544,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/yourwelcome/
   category: null
+  listing_role: app
   partner_domain: yourwelcome.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5209,6 +5560,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/smart-door-systems/
   category: null
+  listing_role: app
   partner_domain: sds-tech.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5224,6 +5576,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/80-days/
   category: null
+  listing_role: app
   partner_domain: eighty-days.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5239,6 +5592,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/bookingpal/
   category: null
+  listing_role: app
   partner_domain: bookingpal.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'
@@ -5254,6 +5608,7 @@ edges:
   direction: partner-built
   evidence: https://www.guesty.com/marketplace-items/accountable/
   category: null
+  listing_role: app
   partner_domain: accountablevr.com
   detected_by: sweep-hospitality.py
   detected: '2026-10-14'

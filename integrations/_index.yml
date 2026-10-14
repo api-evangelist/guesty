@@ -49,7 +49,7 @@
   arazzo: null
 - slug: guesty-beyond
   label: Beyond
-  partner: beyond
+  partner: beyond-pricing
   partner_name: Beyond
   type: marketplace
   marketplace: own
@@ -2030,7 +2030,6 @@
   partner_name: Capital One
   type: marketplace
   marketplace: own
-  channel: partner-built
   evidence: https://www.guesty.com/marketplace-items/capital-one-by-hopper-homes-integration/
   source: edge
   relationship: platform-app
@@ -2382,7 +2381,6 @@
   partner_name: Flywire
   type: marketplace
   marketplace: own
-  channel: partner-built
   evidence: https://www.guesty.com/marketplace-items/flywire/
   source: edge
   relationship: platform-app
@@ -2885,7 +2883,6 @@
   arazzo: null
 - slug: guesty-signal-by-beyond
   label: Signal by Beyond
-  partner: beyond
   partner_name: Signal by Beyond
   type: marketplace
   marketplace: own
@@ -3772,7 +3769,6 @@
   partner_name: Stripe Payment Processing Platform
   type: marketplace
   marketplace: own
-  channel: partner-built
   evidence: https://www.guesty.com/marketplace-items/stripe/
   source: edge
   relationship: platform-app
