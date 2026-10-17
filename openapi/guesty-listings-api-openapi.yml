@@ -82,15 +82,6 @@ paths:
                 $ref: '#/components/schemas/Listing'
 components:
   schemas:
-    ListingList:
-      type: object
-      properties:
-        results:
-          type: array
-          items:
-            $ref: '#/components/schemas/Listing'
-        count:
-          type: integer
     Listing:
       type: object
       properties:
@@ -104,6 +95,15 @@ components:
           type: string
         active:
           type: boolean
+    ListingList:
+      type: object
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Listing'
+        count:
+          type: integer
   securitySchemes:
     bearerAuth:
       type: http

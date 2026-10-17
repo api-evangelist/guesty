@@ -51,15 +51,6 @@ paths:
                 $ref: '#/components/schemas/Guest'
 components:
   schemas:
-    GuestList:
-      type: object
-      properties:
-        results:
-          type: array
-          items:
-            $ref: '#/components/schemas/Guest'
-        count:
-          type: integer
     Guest:
       type: object
       properties:
@@ -71,6 +62,15 @@ components:
           type: string
         phone:
           type: string
+    GuestList:
+      type: object
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Guest'
+        count:
+          type: integer
   securitySchemes:
     bearerAuth:
       type: http
