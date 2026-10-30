@@ -1,4 +1,4 @@
-# Guesty (guesty)
+# Guesty
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,65 +66,133 @@
 
 Guesty is a property management platform for short-term rental businesses. The Guesty Open API provides programmatic access to manage properties, reservations, guests, and operations across multiple listing channels.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/apis.yml)
+**Areas:** Booking · Hospitality · Property Management · Reservations · Short-Term Rental · Vacation Rentals
 
-## Scope
+## Guesty on APIs.io
 
-- **Type:** Index
+Everything profiled for Guesty is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/guesty/](https://apis.io/providers/guesty/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (5)
 
-- Booking
-- Hospitality
-- Property Management
-- Reservations
-- Short-Term Rentals
-- Vacation Rentals
+- [Guesty Calendars API](https://apis.io/apis/guesty/guesty-calendars-api/) — Listing availability and pricing
+- [Guesty Conversations API](https://apis.io/apis/guesty/guesty-conversations-api/) — Guest communication threads
+- [Guesty Guests API](https://apis.io/apis/guesty/guesty-guests-api/) — Guest profiles
+- [Guesty Listings API](https://apis.io/apis/guesty/guesty-listings-api/) — Property listings
+- [Guesty Reservations API](https://apis.io/apis/guesty/guesty-reservations-api/) — Bookings and reservations
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-02-12
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### MCP servers (1)
 
-### Guesty Open API
+Model Context Protocol servers that expose the API to agents.
 
-The Guesty Open API provides step-by-step instructions and documentation to integrate with the Guesty property management platform, including listings, reservations, guests, and multi-channel management.
+- [Moved to /providers/guesty/](https://apis.io/servers/guesty/guesty/)
 
-- **Human URL:** [https://open-api-docs.guesty.com/](https://open-api-docs.guesty.com/)
-- **Base URL:** `https://open-api.guesty.com`
+#### Agentic access (1)
 
-#### Tags
+Which operations an agent can call, which act, and which need a human in the loop.
 
-- Property Management
-- Reservations
-- Short-Term Rentals
+- [Guesty Agentic Access](https://apis.io/agentic-access/guesty/guesty-agentic-access/)
 
-#### Properties
+#### Collections (6)
 
-- [Documentation](https://open-api-docs.guesty.com/)
-- [Getting Started](https://open-api-docs.guesty.com/docs/getting-started)
-- [Authentication](https://open-api-docs.guesty.com/docs/authentication-and-authorization)
-- [API Reference](https://open-api-docs.guesty.com/reference)
-- [Changelog](https://open-api-docs.guesty.com/changelog)
-- [OpenAPI](openapi/guesty-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/guesty.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/guesty.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Postman and Open Collection request collections.
 
-## Common Properties
+- [Guesty Open API](https://apis.io/collections/guesty/open-guesty/)
+- [Guesty Open Calendars API](https://apis.io/collections/guesty/open-guesty-calendars-api/)
+- [Guesty Open Calendars Conversations API](https://apis.io/collections/guesty/open-guesty-conversations-api/)
+- [Guesty Open Calendars Guests API](https://apis.io/collections/guesty/open-guesty-guests-api/)
+- [Guesty Open Calendars Listings API](https://apis.io/collections/guesty/open-guesty-listings-api/)
+- [Guesty Open Calendars Reservations API](https://apis.io/collections/guesty/open-guesty-reservations-api/)
 
-- [GitHub Organization](https://github.com/guestyorg)
-- [LinkedIn](https://www.linkedin.com/company/guesty)
-- [Portal](https://open-api-docs.guesty.com/)
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Guesty Authentication](https://apis.io/security/guesty/guesty-authentication/)
+- [Guesty Domain Security](https://apis.io/security/guesty/guesty-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Guesty Plans Pricing](https://apis.io/plans/guesty/guesty-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Guesty Rate Limits](https://apis.io/rate-limits/guesty/guesty-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Guesty Finops](https://apis.io/finops/guesty/guesty-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.guesty.com/)
-- [Sign Up](https://app.guesty.com/register)
+- [API reference](https://open-api-docs.guesty.com/reference)
 - [Support](https://help.guesty.com/)
 - [Blog](https://www.guesty.com/blog/)
-- [API Reference](https://open-api-docs.guesty.com/reference)
-- [L L Ms Txt](https://open-api-docs.guesty.com/llms.txt)
+- [GitHub](https://github.com/guestyorg)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 32.3** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 80.0 |
+| Contract quality | 46.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 36.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 28.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/guesty/](https://apis.io/providers/guesty/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Guesty: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/guesty/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
